@@ -1,0 +1,82 @@
+*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+}
+
+@keyframes anim1{
+    from{background-color:red;}
+    to{background-color: brown;}
+}
+
+h2{
+    font-size: 17px;
+    font-style: italic;  
+    font-weight: normal;
+}
+
+.teste{
+    color: red;
+    animation-name: anim1;
+    animation-duration: 2s;
+    animation: delay 2s;
+    /*animation-fill-mode: both;*/
+    animation-direction: alternate;
+    animation-iteration-count: 10;
+    /* 0% {background-color:green;}
+    /* 50% {background-color:red;}
+    /* 100% {background-color:blue;}
+}
+
+#teste{
+    color:green;
+}
+
+.paragrafo{
+font-size: 30px;
+}
+
+[name]{
+    color: pink;
+}
+
+div{
+    color: purple;
+}    
+
+.bg{
+   width: 100%;
+   height: 400px;
+   background-image: url('../imagens/background.jpg'); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+}
+
+.d1{
+    width: 100%;
+    /*flex:0.5;*/
+    padding: 20px;
+    margin: 20px;
+    background-color:red;
+}
+
+.d2{
+    width: 50%;
+    height: 300px;
+    background-color:blue;
+}
+
+.d3{
+    width: 50%;
+    height: 300px;
+    background-color:green;
+}

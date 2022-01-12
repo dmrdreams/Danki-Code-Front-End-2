@@ -1,0 +1,15 @@
+ids são usados para marcar as tags e utilizar no js, porem, tambem podem ser chamados no css.
+
+para estilizar toda a classe de uma vez, é preciso somente instanciar a mesma
+
+se voce quiser estilizar coisas diferentes dentro do mesmo atributo, voce precisa dizer qual com o "=" depois do nome do atributo
+
+CORES:
+
+Pode-se definir cores de três maneiras.
+
+com código hexadecimal. Ex: #ffffff
+
+com rgb. Ex: (255,0,0) *valor max é 255*
+
+e com rgba para definir a opacidade. Ex: (255,0,0,50) *valor max do "a" é 1*
